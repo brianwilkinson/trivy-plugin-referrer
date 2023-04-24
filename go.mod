@@ -4,12 +4,12 @@ go 1.20
 
 require (
 	github.com/aquasecurity/table v1.8.0
-	github.com/aquasecurity/trivy v0.40.0
+	github.com/aquasecurity/trivy v0.40.1-0.20230424181756-9bc326909fce
 	github.com/fatih/color v1.15.0
 	github.com/google/go-containerregistry v0.14.0
 	github.com/owenrumney/go-sarif v1.1.1
 	github.com/samber/lo v1.38.1
-	github.com/spdx/tools-golang v0.3.1-0.20230104082527-d6f58551be3f
+	github.com/spdx/tools-golang v0.5.0
 	github.com/spf13/cobra v1.7.0
 	github.com/xlab/treeprint v1.2.0
 )
@@ -19,7 +19,7 @@ replace github.com/spdx/tools-golang => github.com/spdx/tools-golang v0.3.0
 require (
 	github.com/CycloneDX/cyclonedx-go v0.7.1 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
-	github.com/aquasecurity/go-dep-parser v0.0.0-20230413091456-df0396537e15 // indirect
+	github.com/aquasecurity/go-dep-parser v0.0.0-20230424082450-f8baca321fbf // indirect
 	github.com/aquasecurity/trivy-db v0.0.0-20230411140759-3c2ee2168575 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.14.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
