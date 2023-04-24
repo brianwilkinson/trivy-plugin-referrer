@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/aquasecurity/table v1.8.0
-	github.com/aquasecurity/trivy v0.39.1
+	github.com/aquasecurity/trivy v0.40.0
 	github.com/fatih/color v1.15.0
 	github.com/google/go-containerregistry v0.14.0
 	github.com/owenrumney/go-sarif v1.1.1
