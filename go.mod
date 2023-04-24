@@ -1,4 +1,4 @@
-module github.com/aquasecurity/trivy-plugin-referrer
+module github.com/brianwilkinson/trivy-plugin-referrer
 
 go 1.20
 
