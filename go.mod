@@ -14,10 +14,9 @@ require (
 	github.com/xlab/treeprint v1.2.0
 )
 
-replace github.com/spdx/tools-golang => github.com/spdx/tools-golang v0.3.0
-
 require (
 	github.com/CycloneDX/cyclonedx-go v0.7.1 // indirect
+	github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/aquasecurity/go-dep-parser v0.0.0-20230424082450-f8baca321fbf // indirect
 	github.com/aquasecurity/trivy-db v0.0.0-20230411140759-3c2ee2168575 // indirect

@@ -337,9 +337,9 @@ func repoFromPurl(purlStr string) (name.Digest, error) {
 	return digest, nil
 }
 
-func repoFromSpdx(spdx spdx.Document2_2) (name.Digest, error) {
+func repoFromSpdx(spdx spdx.Document) (name.Digest, error) {
 	for _, pkg := range spdx.Packages {
-		if pkg.PackageName == spdx.CreationInfo.DocumentName {
+		if pkg.PackageName == spdx.DocumentName {
 			for _, ref := range pkg.PackageExternalReferences {
 				if ref.Category == "PACKAGE-MANAGER" {
 					return repoFromPurl(ref.Locator)
